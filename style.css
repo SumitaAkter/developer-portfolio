@@ -12,7 +12,7 @@ p {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
 
 }
@@ -20,6 +20,7 @@ section {
 .half-width {
     width: 50%;
     padding: 5%;
+
 }
 
 .link-button {
@@ -41,6 +42,7 @@ section {
     background-image: url(images/developer.png);
     background-repeat: no-repeat;
 
+    background-size: 5% 50%;
 }
 
 .another {
@@ -48,4 +50,34 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 
+    background-size: 5% 50%
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+
+
+}
+
+#full {
+    border-left: 7px solid;
+    border-image: linear-gradient(red, rgb(255, 0, 204));
+    border-image-slice: 1;
+}
+
+#baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
